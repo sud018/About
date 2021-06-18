@@ -147,10 +147,15 @@ p{
 }
 @media only screen and (max-width: 500px)
 {
-/* body{
-  position: relative;
-  left:100px;
-} */
+
+  .navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #237d9e;
+    color: #fff;
+    width:104%;
+    }
 .whop,.missionp,.visionp{
   width: 60%;
   justify-content: center;
@@ -170,6 +175,10 @@ p{
 }
 .secimg,.thirdimg,.fifthimg,.sixthimg,.seventhimg{
   display: none;
+}
+.firstfooter{
+  position: relative;
+  right:7%;
 }
 .thirdfooter{
   position: relative;
