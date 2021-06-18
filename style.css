@@ -1,6 +1,10 @@
 body{
   margin: 0px;
 }
+/* .middle{
+  background: #237d9e;
+  opacity: 0.6;
+} */
 .navbar{
   display: flex;
   justify-content: flex-start;
@@ -145,7 +149,7 @@ p{
   position: relative;
   right:10%;
 }
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 1100px)
 {
 
   .navbar{
