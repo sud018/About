@@ -156,25 +156,41 @@ p{
     color: #fff;
     width:104%;
     }
-.whop,.missionp,.visionp{
+.aboutp,.whop,.missionp,.visionp{
   width: 60%;
   justify-content: center;
   align-items: center;
   line-height: 25px;
+  text-align: center;
 }
 .firstimg{
   height: 70px;
   width: 70px;
-  position: absolute;
+  position: relative;
   right:10%;
-  /* top:170px; */
   border-radius: 50%;
-  /* bottom: 0; */
+  top: 15px;
   border: 5px solid #237d9e;
   opacity: 0.8;
 }
-.secimg,.thirdimg,.fifthimg,.sixthimg,.seventhimg{
+.sixthimg,.seventhimg,.fifthimg{
   display: none;
+}
+.secimg,.thirdimg{
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  right:10%;
+   top:100px;
+  border-radius: 50%;
+  border: 5px solid #237d9e;
+  opacity: 0.8;
+}
+.secimg{
+  left:132px;
+}
+.thirdimg{
+  left:230px;
 }
 .firstfooter{
   position: relative;
