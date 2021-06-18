@@ -151,6 +151,12 @@ p{
   position: relative;
   left:100px;
 } */
+.whop,.missionp,.visionp{
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+}
 .firstimg{
   height: 70px;
   width: 70px;
@@ -168,6 +174,7 @@ p{
 .thirdfooter{
   position: relative;
   top:20px;
+  right: 10%;
 }
 }
 .secondfooter{
