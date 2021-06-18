@@ -1,0 +1,218 @@
+body{
+  margin: 0px;
+}
+.navbar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #237d9e;
+  color: #fff;
+  width:100%;
+  }
+  .navh1{
+    margin-left: 20px;
+  }
+
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .abouth1,.visionh1,.missionh1,.whoh1{
+    margin-bottom: -7px;
+  }
+  .aboutp,.whop,.missionp,.visionp{
+    width: 32%;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+  }
+
+  .vision,.mission,.who{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top: 20px;
+  }
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height:40%;
+  width:100%;
+  margin-top: 63px;
+  background-color: #237d9e;
+  /* background-color: #00987f; */
+}
+p{
+  font-size: 20px;
+}
+.firstimg{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left:30px;
+  top:170px;
+  border-radius: 50%;
+  /* bottom: 0; */
+  border: 5px solid #237d9e;
+  opacity: 0.8;
+
+}
+.secimg{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left:300px;
+  top:370px;
+  border-radius: 50%;
+  border: 5px solid #237d9e;
+  /* bottom: 0; */
+  opacity: 0.8;
+}
+.thirdimg{
+  height: 220px;
+  width: 220px;
+  position: absolute;
+  left:30px;
+  top:570px;
+  border-radius: 50%;
+  border: 5px solid #237d9e;
+  /* bottom: 0; */
+  opacity: 0.8;
+}
+.fifthimg{
+  height: 220px;
+  width: 220px;
+  position: absolute;
+  left:1330px;
+  top:130px;
+  border-radius: 50%;
+  border: 5px solid #237d9e;
+  /* bottom: 0; */
+  opacity: 0.8;
+
+}
+.sixthimg{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left:1100px;
+  top:330px;
+  border-radius: 50%;
+  border: 5px solid #237d9e;
+  /* bottom: 0; */
+  opacity: 0.8;
+}
+.seventhimg{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left:1330px;
+  top:600px;
+  border-radius: 50%;
+  border: 5px solid #237d9e;
+  /* bottom: 0; */
+  opacity: 0.8;
+}
+
+.fb,.ia,.tr{
+  padding-right: 12px;
+  color:#fff;
+}
+.fb:hover{
+  color: #000;
+}
+.ia:hover{
+  color: #000;
+}
+.tr:hover{
+  color: #000;
+}
+.shape{
+  position: absolute;
+}
+.fa-home,.fa-hospital,.fa-ambulance{
+  padding: 10px;
+  color: grey;
+  opacity: 0.5;
+}
+.firstfooter{
+  position: relative;
+  right:10%;
+}
+@media only screen and (max-width: 500px)
+{
+/* body{
+  position: relative;
+  left:100px;
+} */
+.firstimg{
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  right:10%;
+  /* top:170px; */
+  border-radius: 50%;
+  /* bottom: 0; */
+  border: 5px solid #237d9e;
+  opacity: 0.8;
+}
+.secimg,.thirdimg,.fifthimg,.sixthimg,.seventhimg{
+  display: none;
+}
+.thirdfooter{
+  position: relative;
+  top:20px;
+}
+}
+.secondfooter{
+   position: relative;
+  right:10%;
+}
+span:hover{
+  color:#000;
+  position: relative;
+  bottom: 3px;
+}
+
+p{
+font-family: 'Noto Serif JP', serif;
+}
+h1,h3{
+  font-family: 'Playfair Display', serif;
+}
+li{
+  color: #fff;
+  list-style: none;
+  padding: 3px;
+}
+li:hover{
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.firstspan{
+  position: relative;
+  bottom:10px;
+  text-decoration: underline;
+}
+.secondspan{
+  position: relative;
+  left: 37px;
+  text-decoration: underline;
+}
+.thirdspan{
+position:relative;
+bottom: 23px;
+    left: 45px;
+    text-decoration: underline;
+}
+.dis{
+  position: relative;
+  bottom:25px;
+}
